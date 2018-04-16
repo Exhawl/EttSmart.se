@@ -12,25 +12,25 @@
     <meta content="" name="author">
     
     <!-- ========== FAVICON ========== -->
-    <link rel="apple-touch-icon-precomposed" href="images/favicon-apple.png" />
-	<link rel="icon" href="images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="../images/favicon-apple.png" />
+	<link rel="icon" href="../images/favicon.png">
 
     <!-- ========== STYLESHEETS ========== --> 
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="revolution/css/layers.css" rel="stylesheet" type="text/css" />
-    <link href="revolution/css/settings.css" rel="stylesheet" type="text/css" />
-    <link href="revolution/css/navigation.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
-    <link href="css/famfamfam-flags.css" rel="stylesheet" type="text/css">
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../revolution/css/layers.css" rel="stylesheet" type="text/css" />
+    <link href="../revolution/css/settings.css" rel="stylesheet" type="text/css" />
+    <link href="../revolution/css/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="../css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/famfamfam-flags.css" rel="stylesheet" type="text/css">
+    <link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="../css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
 
     <!-- ========== ICON FONTS ========== -->
-    <link href="fonts/font-awesome.min.css" rel="stylesheet">
-    <link href="fonts/flaticon.css" rel="stylesheet">
+    <link href="../fonts/font-awesome.min.css" rel="stylesheet">
+    <link href="../fonts/flaticon.css" rel="stylesheet">
     
     <!-- ========== GOOGLE FONTS ========== -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7cRaleway:400,500,600,700" rel="stylesheet">
@@ -71,7 +71,7 @@
     </div>
 
         <!-- ========== HEADER ========== -->
-       <header class="fixed">
+       <header class="">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
@@ -80,7 +80,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo_navy.svg" height="32" alt="Logo">
+                        <img src="../images/logo_navy.svg" height="32" alt="Logo">
                     </a>
                 </div>
                 <nav id="main_menu" class="mobile_menu navbar-collapse">
@@ -122,7 +122,7 @@
         </header>
 
         <!-- =========== PAGE TITLE ========== -->
-        <div class="page_title" style="background: url(images/page_title_bg.jpg);">
+        <div class="page_title" style="background: url(../images/page_title_bg.jpg);">
             <div class="container">
                 <div class="inner">
                     <h1>Boende</h1>
@@ -133,89 +133,128 @@
                 </div>
             </div>
         </div>
-        
-        <!-- =========== MAIN ========== -->
-        <main id="rooms_list">
-           <div class="container">
-           
-               <!-- ITEM -->
-             
-              <article class="room_list">
-                 <div class="row">
-                    <div class="col-lg-4 col-md-5 col-sm-12">
-                             <div class="item">
-                                <a href="room.html" class="hover_effect h_link h_blue"><img src="images/rooms/room-1/room-1-1.jpg" alt="Image"></a>
-                             </div>
-                    </div>
-                    <div class="col-lg-8 col-md-7 col-sm-12">
-                       <div class="room_details">  
-                          <div class="col-md-9 col-sm-9 col-xs-12 room_desc"> 
-                              <h1 class="strong margin-top"><a id="stockholm"  href="room.html"> Sollentuna &nbsp|&nbsp EttSmart </a></h1> 
-                              <p> Ljust och modernt 1-bäddsrum. <br> Skrivbord, TV och vattenkokare.<br></p>
 
-                              <div class="room_services">
-                                    <i class="fa fa-coffee" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Breakfast Included" ></i>
-                                    <i class="fa fa-wifi" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Free WiFi" ></i>
-                                    
-                                    <i class="fa fa-television" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Plasma TV with cable Channel"></i>
-                                 </div>
+        <!-- ======== nav secondary ======== -->
+        <header class="fixed">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../images/logo_navy.svg" height="32" alt="Logo">
+                    </a>
+                </div>
+                <nav id="main_menu" class="mobile_menu navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="mobile_menu_title" style="display:none;">MENY</li>
+                        <li class=""><a href="index.html" class="">Hotell</a></li>
+                        <li class=""><a href="rooms-list.html" class="">Rum</a></li>
+                        <li class=""><a href="rcontact.html" class="">Kontakta Oss</a></li>
+                        <li class="menu_button">
+                            <a href="https://ettsmart.happybooking.io/?from=&to=&lang=Svenska" target="_blank" class="button  btn_yellow"><i class="fa fa-calendar"></i>BOKA RUM</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        
+        <!-- ========== MAIN SECTION ========== -->
+        <main id="about_us_page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="mb30 mt_dark" ><strong> Välkommen Till Sollentunas Smartaste Hotell </strong></h2>
+                        <p><strong id="smart-hotell"> Supersnabb incheckning </strong> med personlig kod på Ett Smart Hotell. </p>
+                            <p> 
                                 
-                          </div>
-                          <div class="col-md-3 col-sm-3 col-xs-12 room_price">
-                             <div class="room_price_inner">
-                                 <small class="upper"> från </small>
-                                <span class="room_price_number"> 795 kr </span>
-                                <small class="upper"> per natt</small>
-                                <!-- <a href="https://ettsmart.happybooking.io/?from=&to=&lang=Svenska" target="_blank" class="button-close btn_full  btn_yellow"><i class="fa fa-calendar"></i>&nbsp BOKA NU</a> -->
-                                <a href="sollentuna/hotel.html" class="button-close  btn_blue btn_full upper">Välj</a>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
-              </article>
-           
-              <!-- ITEM -->
-              
-              <article class="room_list">
-                 <div class="row">
-                    <div class="col-lg-4 col-md-5 col-sm-12">
-                             <div class="item">
-                                <a href="room2.html" class="hover_effect h_link h_blue"><img src="images/rooms/room-2/room-2-1.jpg" alt="Image"></a>
-                             </div>
-                    </div>
-                    <div class="col-lg-8 col-md-7 col-sm-12">
-                       <div class="room_details row-flex">
-                          <div class="col-md-9 col-sm-9 col-xs-12 room_desc">
-                              <h1 class="strong margin-top"><a id="stockholm"  href="room2.html"> Kista &nbsp|&nbsp STHLM Hotel </a></h1>
-                              <p> Öppet och fräscht 2-bäddsrum. <br> Skrivbord, TV och vattenkokare.   <br> + Egen ingång</p>
-                              
-                                <div class="room_services">
-                                      <i class="fa fa-coffee" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Breakfast Included" ></i>
-                                      <i class="fa fa-wifi" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Free WiFi" ></i>
-                                      <i class="fa fa-television" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Plasma TV with cable Channel" ></i>
-                                   </div>
-                               
+                                1. Innan du anländer får du en kod på SMS och E-post <br>
+                                2. Koden ger dig tillgång till rum och byggnad <br>
+                                3. Inga väntetider, boka och anländ utan trassel<br>
+                                <br>
+                                
+                             </p>   
+                            <p>Hotellet <strong id="smart-hotell"> ligger centralt </strong> i Sollentuna.  </p>
+                            <p> - Parkering finns tillgänglig helt utan extra kostnad <br>
+                                - Transportmedel som tåg och buss finns inom gångavstånd <br>
+                                - Pendeltåget tar dig till centrala Stockholm på 12 minuter <br> <br>
+                                 Har du tid över kan du besöka Sollentuna centrum där finns <br>
+                                 allt du kan önska dig i form av underhållning, shopping och träning.<br>
+                            </p>
+
+                        </div>
+                    <div class="col-md-5">
+                        <div class="about_img">
+                            <img src="../images/about-back.jpg" class="img1 img-responsive" alt="Image">
+                            <img src="../images/about.jpg" class="img2 img-responsive" alt="Image">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="countup_box">
+                                    <div class="inner">
+                                        <div class="countup number" data-count="24"></div>
+                                        <div class="text">Rum</div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-3 col-sm-3 col-xs-12 room_price">
-                               <div class="room_price_inner">
-                                   <small class="upper"> från </small>
-                                  <span class="room_price_number">795 kr</span>
-                                  <small class="upper"> per natt</small>
-                                  <!-- <a href="https://ettsmart.happybooking.io/?from=&to=&lang=Svenska" target="_blank" class="button-close btn_full  btn_yellow"><i class="fa fa-calendar"></i>&nbsp BOKA NU</a> -->
-                                  <a href="room2.html" class="button-close  btn_blue btn_full upper">Välj</a>
-                               </div>
-                          </div>
-                       </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="countup_box">
+                                    <div class="inner">
+                                        <div class="text">GRATIS</div>
+                                        <div class="text wifi-icon"> <i class="fa fa-wifi" aria-hidden="true" id="wifi-icon"> </i></div>
+                                        <div class="text">Wi-Fi</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="countup_box">
+                                    <div class="inner">
+                                        <div class="countup number" data-count="3" ></div>
+                                        <div class="text">Byggnader</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="countup_box">
+                                    <div class="inner">
+                                        <div class="countup number" data-count="30"></div>
+                                        <div class="text">Parkerings platser</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-              </article>
-                 <!-- ITEM -->
-            
-              
-            
-           </div>
+                </div>
+                <div class="row image-gallery">
+                    <div class="col-md-3 col-sm-6 mt20 mb20 br2">
+                        <a href="../images/about1.jpg" class="hover_effect h_lightbox h_blue">
+                            <img src="../images/about1.jpg" class="img-responsive full_width br2" alt="Image">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt20 mb20 br2">
+                        <a href="../images/about2.jpg" class="hover_effect h_lightbox h_blue">
+                            <img src="../images/about2.jpg" class="img-responsive full_width br2" alt="Image">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt20 mb20 br2">
+                        <a href="../images/about3.jpg" class="hover_effect h_lightbox h_blue">
+                            <img src="../images/about3.jpg" class="img-responsive full_width br2" alt="Image">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt20 mb20 br2">
+                        <a href="../images/about4.jpg" class="hover_effect h_lightbox h_blue">
+                            <img src="../images/about4.jpg" class="img-responsive full_width br2" alt="Image">
+                        </a>
+                    </div>
+                </div>
+               </div>
+
         </main>
+
+
 
        <!-- ========== FOOTER ========== -->
        <footer>
@@ -224,7 +263,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6 widget">
                             <div class="about">
-                                <a href="index.html"><img class="logo" src="images/logo_navy.svg" height="32" alt="Logo"></a>
+                                <a href="index.html"><img class="logo" src="../images/logo_navy.svg" height="32" alt="Logo"></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 widget">
@@ -286,24 +325,24 @@
     </div>
 
     <!-- ========== JAVASCRIPT ========== -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-    <script type="text/javascript" src="js/jquery.smoothState.js"></script>
-    <script type="text/javascript" src="js/moment.min.js"></script>
-    <script type="text/javascript" src="js/morphext.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.thumbs.min.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/jPushMenu.js"></script>
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/countUp.min.js"></script>
-    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.smoothState.js"></script>
+    <script type="text/javascript" src="../js/moment.min.js"></script>
+    <script type="text/javascript" src="../js/morphext.min.js"></script>
+    <script type="text/javascript" src="../js/wow.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="../js/owl.carousel.thumbs.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="../js/jPushMenu.js"></script>
+    <script type="text/javascript" src="../js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="../js/countUp.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
 
 </body>
 </html>
